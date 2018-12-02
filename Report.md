@@ -52,4 +52,8 @@ Environment solved in 1098 episodes!	Average Score: 16.01
 ![Rewards Plot](attachment:image.png)
 
 ### Future Ideas
-It would be great to compare performance of Double DQN (DDQN), Dueling DQN, Prioritized DQN, Noisy DQN and finally Rainbow
+To improve the agent's performance the following techniques the be used:
+ - reduce learning rates `LR_ACTOR` and `LR_CRITIC`
+ - increase the `BATCH_SIZE`
+ - increase number of neurons in Actor and Critic networks
+ - compare with other algorithms (PPO, A3C, D4PG)
