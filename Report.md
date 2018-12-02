@@ -39,7 +39,7 @@ Episode 125	Average Score: 30.07	Score: 29.316
 Environment solved in 125 episodes!	Average Score: 30.07
 ```
 
-![Rewards Plot](attachment:image.png)
+![Rewards Plot](attachment:plot.png)
 
 ### Future Ideas
 To improve the agent's performance the following techniques the be used:
