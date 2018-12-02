@@ -21,17 +21,17 @@ The Critic network hyperparameters:
 * Activation function: ReLU
 
 ### Training
-The agent model was trained on Mac.
+The agent model was trained on AWS.
 The following hyperparameters were used:
 * Optimizer: Adam
 * Replay buffer size: 100000
-* Minibatch size: 64
+* Minibatch size: 128
 * Discount factor (Gamma): 0.99
-* Learning rate: 0.0005
-* Epsilon (for epsilon-greedy action selection): starting with 1.0 and ending with 0.01 in 200 updates
-* Network update rate (steps): 4
+* Learning rate (Actor): 0.0001
+* Learning rate (Critic): 0.001
+* L2 weight decay: 0
 
-The agent was able to solve the environment (16+ scores) in 1098 episodes:
+The agent was able to solve the environment (30+ scores) in N episodes:
 
 ```
 Episode 100	Average Score: 2.11
