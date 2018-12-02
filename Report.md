@@ -21,7 +21,7 @@ The Critic network hyperparameters:
 * Activation function: ReLU
 
 ### Training
-The agent model was trained on AWS.
+The agent model was trained on AWS (P3.2xlarge).
 The following hyperparameters were used:
 * Optimizer: Adam
 * Replay buffer size: 100000
@@ -31,7 +31,7 @@ The following hyperparameters were used:
 * Learning rate (Critic): 0.001
 * L2 weight decay: 0
 
-The agent was able to solve the environment (30+ scores) in N episodes:
+The agent was able to solve the environment (30+ scores) in N episodes within M minutes:
 
 ```
 Episode 100	Average Score: 2.11
