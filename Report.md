@@ -31,22 +31,12 @@ The following hyperparameters were used:
 * Learning rate (Critic): 0.001
 * L2 weight decay: 0
 
-The agent was able to solve the environment (30+ scores) in N episodes within M minutes:
+The agent was able to solve the environment (30+ scores) in 125 episodes within 32 minutes:
 
 ```
-Episode 100	Average Score: 2.11
-Episode 200	Average Score: 6.47
-Episode 300	Average Score: 9.14
-Episode 400	Average Score: 10.71
-Episode 500	Average Score: 12.96
-Episode 600	Average Score: 13.46
-Episode 700	Average Score: 14.51
-Episode 800	Average Score: 14.89
-Episode 900	Average Score: 15.50
-Episode 1000	Average Score: 15.17
-Episode 1100	Average Score: 15.71
-Episode 1198	Average Score: 16.01
-Environment solved in 1098 episodes!	Average Score: 16.01
+Episode 100	Average Score: 22.50	Score: 33.027
+Episode 125	Average Score: 30.07	Score: 29.316
+Environment solved in 125 episodes!	Average Score: 30.07
 ```
 
 ![Rewards Plot](attachment:image.png)
