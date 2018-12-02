@@ -42,7 +42,7 @@ Environment solved in 125 episodes!	Average Score: 30.07
 ![Rewards Plot](plot.png)
 
 ### Future Ideas
-To improve the agent's performance the following techniques the be used:
+To improve the agent's performance the following techniques can be used:
  - reduce learning rates `LR_ACTOR` and `LR_CRITIC`
  - increase the `BATCH_SIZE`
  - increase number of neurons in Actor and Critic networks
